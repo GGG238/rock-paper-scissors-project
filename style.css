@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+/* font-family: 'Architects Daughter', cursive; */
+
+*{
+    font-family: 'Architects Daughter', cursive;
+    color: white;    
+}
+
+body{
+    background: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 64px;
+    margin: 15px 0;
+}
+
+#select{
+    font-size: 42px;
+    text-align: center;
+}
+
+#select p{
+    margin: 20px 0 0 0;
+}
+
+#buttons{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+button{
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 8px solid white;
+    border-radius: 50%;
+    font-size: 32px;
+    cursor: pointer;
+    padding: 15px;
+    margin: 0;
+}
+
+#rock{
+    background: url(./img/rock.png) no-repeat;
+    background-size: 65%;
+    background-position: center;
+}
+
+#paper{
+    background: url(./img/paper.png) no-repeat;
+    background-size: 65%;
+    background-position: center;
+}
+
+#scissors{
+    background: url(./img/scissors.png) no-repeat;
+    background-size: 65%;
+    background-position: center;
+}
+
+#display-result{
+    border: 2px solid white;
+    max-width: 900px;
+    height: 300px;
+    border-radius: 30px;
+    margin: auto;
+    text-align: center;
+    font-size: 32px;
+}
+
+#display-result p{
+    margin: 0;
+}
+
+.election{
+    display: flex;
+    height: 250px;
+}
+
+#images{
+    display: flex;
+    text-align: center;
+}
+
+#player{
+    width: 50%;
+    justify-content: center;
+    margin: 0;
+}
+
+#enemy{
+    width: 50%;
+    justify-content: center;
+    margin: 0;
+}
+
+#display-score{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-around;
+    font-size: 32px;
+    text-align: center;
+}
+
+#last{
+    padding: 0;
+    margin-top: auto;
+}
+
+#img-attribute p{
+    font-size: 24px;
+    margin: 0;
+    margin-top: -15px;
+    padding: 0;
+    text-align: center;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 24px;
+    background: rgb(63, 63, 63);
+    margin-top: 10px;
+}
+
+#footer p{
+    margin: 0;
+}
+
+#footer img{
+    height: 30px;
+}

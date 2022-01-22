@@ -5,26 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="./style.css">
     <script src="./script.js" defer></script>
 </head>
 <body>
-    <div id="display-result">
-        <p>Result:</p>
-        <p id="result"></p>
-    </div>
+    <div id="main">
+        <h1>ROCK PAPER SCISSORS!</h1>
 
-    <div>
-        <button value="rock">Rock</button>
-        <button value="paper">Paper</button>
-        <button value="scissors">Scissors</button>
-    </div>
+        <div id="display-result">
+            <div id="images">
+                <div class="election" id="player"><p>Player</p></div>
 
-    <div id="display-score">
-        <p id="win"></p>
-        <p id="lose"></p>
-        <p id="tie"></p>
-    </div>
+                <div class="election" id="enemy"><p id="enemy-text">Enemy</p></div>
+            </div>
+            <p id="result"></p>
+        </div>
 
-    
+        <div id="select">
+            <p>Choose wisely</p>
+            <div id="buttons">
+                <button value="rock" id="rock"></button>
+                <button value="paper" id="paper"></button>
+                <button value="scissors" id="scissors"></button>
+            </div>
+        </div>
+
+        <div id="display-score">
+            <p id="win">Win: 0</p>
+            <p id="lose">Lose: 0</p>
+            <p id="tie">Tie: 0</p>
+        </div>
+    </div>
+    <div id="last">
+        <div id="img-attribute">
+            <p>All the images used in this project where downloaded from <a target="_blank" href="https://thenounproject.com">The noun project</a> and created by <a target="_blank" href="https://thenounproject.com/cristiano.zoucas/">Cristiano Zoucas</a></p>
+        </div>
+        <div id="footer">
+            <p>Copyright © GGG 2022</p>
+            <a target="_blank" href="https://github.com/GGG238" ><img src="./img/github-icon.png"></a>
+        </div>
+    </div>
 </body>
 </html>
