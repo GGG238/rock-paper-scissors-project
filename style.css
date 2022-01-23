@@ -8,12 +8,19 @@
 
 body{
     background: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 h1{
     text-align: center;
     font-size: 64px;
-    margin: 15px 0;
+    margin: 8px 0;
 }
 
 #select{
@@ -26,9 +33,10 @@ h1{
 }
 
 #buttons{
-    width: 800px;
+    max-width: 800px;
     margin: auto;
     display: flex;
+    gap: 10px;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -66,7 +74,7 @@ button{
 }
 
 #display-result{
-    border: 2px solid white;
+    border: 4px solid white;
     max-width: 900px;
     height: 300px;
     border-radius: 30px;
@@ -103,24 +111,25 @@ button{
 
 #display-score{
     display: flex;
-    width: 800px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 16px auto;
     justify-content: space-around;
     font-size: 32px;
     text-align: center;
+    border: 4px solid white;
+    border-radius: 16px;
 }
 
-#last{
-    padding: 0;
-    margin-top: auto;
+#display-score p{
+    margin: 0;
 }
 
 #img-attribute p{
     font-size: 24px;
-    margin: 0;
-    margin-top: -15px;
+    margin: 0 auto 16px;
     padding: 0;
     text-align: center;
+    max-width: 800px;
 }
 
 #footer{
@@ -130,7 +139,9 @@ button{
     gap: 5px;
     font-size: 24px;
     background: rgb(63, 63, 63);
-    margin-top: 10px;
+    padding: 2px 0;
+    width: 100%;
+    
 }
 
 #footer p{
@@ -139,4 +150,13 @@ button{
 
 #footer img{
     height: 30px;
+    position: relative;
+    top: 4px;
 }
+
+
+
+
+
+
+
